@@ -4,6 +4,9 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+h1{
+    margin-left: 5%;
+}
 
 .text-home{
         font-family: Montserrat;
@@ -30,16 +33,156 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding: 16px;
 }
 
+.gradient-overlay {
+    position: relative;
+    display: inline-block; /* Asegura que el contenedor se ajuste al tamaño de la imagen */
+    margin-top: 2%;
+    border-radius: 2%;
+    width: 100%; /* Ajusta el ancho de la imagen */
+}
+
+.gradient-overlay img {
+    display: block; /* Elimina el espacio en la parte inferior de la imagen */
+    border-radius: 2%;
+    width: 100%; /* Ajusta el ancho de la imagen */
+}
+
+.gradient-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(315deg, rgba(16, 48, 86, 0) 0%, rgba(16, 48, 86, 1) 74%);
+    pointer-events: none; /* Permite que los clics pasen a la imagen */
+}
+
+.centered-content {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cambia el color del texto según sea necesario */
+    text-align: center; /* Centra el texto */
+    z-index: 1; /* Coloca el texto sobre la imagen */
+}
+
+.centered-text-one, .centered-text-two, .centered-text-two-paragraph{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    font-variant: small-caps;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.centered-text-one{
+    margin-right: 25%;
+    margin-bottom: 2%;
+}
+
+
+.centered-text-two{
+margin-right: 37%;
+margin-bottom: 2%;
+}
+
+.centered-text-two-paragraph{
+    margin-right: 46%;
+    margin-bottom: 2%;
+}
+
+.centered-text-descripitive{
+    
+    margin-bottom: 4%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.centered-text-descripitive-paragraph{
+    margin-bottom: 4%;
+    margin-right: 17%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.mr-2{
+    width: 100%;
+    color: #103056;
+    height: 20%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-left: 4%;    
+}
+
+.mr-2-section{
+width: 100%;
+color: #103056;
+height: 20%;
+padding-top: 2%;
+padding-right: 4%;
+padding-bottom: 2%;
+padding-left: 4%;
+}
+
+.mr-2-section-two-button{
+    width: 100%;
+    color: #103056;
+    height: 20%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    }
+
+    .mr-2-section-three-button{
+    width: 100%;
+    color: #103056;
+    height: 20%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    margin-top: 4%;
+   }
+
+.centered-text-secondsection{
+    margin-top: 4%;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
 .image-container-home {
-    position: relative; /* Permite posicionar elementos hijos */
+    display: flex; /* Alinea los elementos en una fila */
     width: 100%; /* Ajusta el ancho según sea necesario */
-    max-width: 600px; /* Ancho máximo de la imagen */
-  }
-  
-  .background-image {
-    width: 100%; /* Hace que la imagen sea responsiva */
-    height: auto; /* Mantiene la proporción de la imagen */
-  }
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.image-container {
+    width: 30%; /* Ajusta el ancho según sea necesario */
+    margin: 10px; /* Espaciado entre las imágenes */
+}
+
+.background-image {
+    width: 100%; /* Asegúrate de que la imagen ocupe todo el contenedor */
+    height: 100%; /* Mantiene la proporción de la imagen */
+}
   
   .color-box {
     position: absolute; /* Permite posicionar los cuadros en relación al contenedor */
@@ -48,45 +191,118 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     opacity: 0.7; /* Opacidad para ver la imagen de fondo */
   }
   
-  .red {
-    background-color: red;
-    top: 20px; /* Posición desde la parte superior */
-    left: 20px; /* Posición desde la izquierda */
+  .sobreposition {
+    background-color: #103056BF;
+    margin-top: 32%;
+    margin-left: 8%;
+    padding-left: 84%;
+    padding-bottom: 30%;
+    border-radius: 8%;
   }
-  
-  .blue {
-    background-color: blue;
-    top: 20px; /* Posición desde la parte superior */
-    left: 150px; /* Posición desde la izquierda */
+
+  .box-sobreposition{
+    background: #103056BF;
+    padding-left: 10%;
+    margin-left: 2%;
+    width: 96%;
+    border-radius: 7%;
   }
-  
-  .green {
-    background-color: green;
-    top: 150px; /* Posición desde la parte superior */
-    left: 20px; /* Posición desde la izquierda */
+
+  .text-sobreposition{
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-variant: small-caps;
+    color: whitesmoke;
+    text-transform: lowercase;
+    margin-top: 4%;
   }
 
   .main-container-green {
-    display: flex; /* Alinea los contenedores horizontalmente */
-    background-color: green; /* Color de fondo verde */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    width: 100%; /* Ancho completo */
-    max-width: 800px; /* Ancho máximo */
-    margin: 20px auto; /* Centra el cuadro en la página */
+    display: flex;
+    background-color: #47E6C4;
+    padding: 1%;
+    border-radius: 2%;
+    width: 100%;
+    margin-left: 6%;
+    max-width: 88%;
+    margin-top: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-bottom: 4%;
+}
+.text-container-one {
+    display: flex    ;
+    flex-direction: column;
+    padding: 2% 15%;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 6%;
+    background-color: #47E6C4;
+    border-radius: 4px;
+    border: 2px solid #103056;
   }
-  
-  .text-container {
-    flex: 1; /* Permite que los contenedores ocupen el mismo espacio */
-    margin: 0 10px; /* Espacio entre los contenedores */
-    padding: 10px; /* Espaciado interno */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
-    border-radius: 4px; /* Bordes redondeados para los contenedores */
+
+  .text-container-two {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7%;
+    background-color: #47E6C4;
+    border-radius: 4px;
+    border: 2px solid #103056;
+    padding: 2% 15%;
+    width: 40%;
+    padding-left: 2%;
   }
+
+  .parrafobrcontainergreen{
+    margin-top: 2%; 
+    text-align: center;
+    margin-bottom: 3%; /* Espacio entre el título y los contenedores */
+    width: 100%;
+  }
+
+  .img-fluid-icongreen{
+    width: 25%;
+    padding-bottom: 3%;
+}
   
   .background-image-rejas {
     background-color: #103056;
+    width: 100%;
+    height: 100%;
+    margin-top: 6%;
   }
+
+
+  .navbar {
+    position: relative; /* Permite posicionar elementos hijos */
+}
+
+  .nav-image {
+    position: relative; /* Necesario para el posicionamiento del texto */
+}
+
+  .nav-image img {
+    width: 100%; /* Imagen ocupa el ancho completo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+  .nav-text {
+    position: absolute; /* Posiciona el texto sobre la imagen */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad */
+}
+  
   .background-image-civil {
     width: 30%;
   }
