@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilos CSS */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.text-home{
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        font-variant: small-caps;
+        color: #757575;
+}
+
+.Lorem{
+    text-decoration: underline;
+        color: #103056;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        font-variant: small-caps;
+}
+.bg-custom{
+    background-color: #47e6c4; 
+    padding: 16px;
+}
+
+.image-container-home {
+    position: relative; /* Permite posicionar elementos hijos */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    max-width: 600px; /* Ancho máximo de la imagen */
+  }
+  
+  .background-image {
+    width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  .color-box {
+    position: absolute; /* Permite posicionar los cuadros en relación al contenedor */
+    width: 100px; /* Ancho del cuadro */
+    height: 100px; /* Alto del cuadro */
+    opacity: 0.7; /* Opacidad para ver la imagen de fondo */
+  }
+  
+  .red {
+    background-color: red;
+    top: 20px; /* Posición desde la parte superior */
+    left: 20px; /* Posición desde la izquierda */
+  }
+  
+  .blue {
+    background-color: blue;
+    top: 20px; /* Posición desde la parte superior */
+    left: 150px; /* Posición desde la izquierda */
+  }
+  
+  .green {
+    background-color: green;
+    top: 150px; /* Posición desde la parte superior */
+    left: 20px; /* Posición desde la izquierda */
+  }
+
+  .main-container-green {
+    display: flex; /* Alinea los contenedores horizontalmente */
+    background-color: green; /* Color de fondo verde */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Centra el cuadro en la página */
+  }
+  
+  .text-container {
+    flex: 1; /* Permite que los contenedores ocupen el mismo espacio */
+    margin: 0 10px; /* Espacio entre los contenedores */
+    padding: 10px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    border-radius: 4px; /* Bordes redondeados para los contenedores */
+  }
+  
+  .background-image-rejas {
+    background-color: #103056;
+  }
+  .background-image-civil {
+    width: 30%;
+  }
+  .background-image-estudiante{
+    width: 30%;
+  }
