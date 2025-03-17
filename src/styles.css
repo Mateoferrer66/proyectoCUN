@@ -236,6 +236,22 @@ padding-left: 4%;
     padding-left: 2%;
     padding-bottom: 4%;
 }
+
+
+.main-container-white {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 1%;
+    border-radius: 2%;
+    width: 100%;
+    margin-left: 6%;
+    max-width: 88%;
+    margin-top: 5%;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-bottom: 4%;
+}
+
 .text-container-one {
     display: flex    ;
     flex-direction: column;
@@ -267,10 +283,27 @@ padding-left: 4%;
     width: 100%;
   }
 
+  .parrafobrcontainerwhite{
+      margin-top: 2%; 
+      margin-bottom: 3%; /* Espacio entre el título y los contenedores */
+      width: 100%;
+    }
+    
+    .parrafobrcontainerwhitetwo{
+        margin-top: 2%; 
+        margin-bottom: 3%; /* Espacio entre el título y los contenedores */
+        width: 100%;
+    }
+    
   .img-fluid-icongreen{
     width: 25%;
     padding-bottom: 3%;
-}
+    }
+
+    .img-logo-white{
+        filter: brightness(0) invert(1); /* Cambia el logo a blanco */
+
+    }
   
   .background-image-rejas {
     background-color: #103056;
@@ -304,8 +337,50 @@ padding-left: 4%;
 }
   
   .background-image-civil {
-    width: 30%;
+    width: 60%;
+    border-radius: 8%;
+    margin-left: 5%;
   }
+  
+  .parrafosectioncivil{
+    margin-left: 5%;
+    }
+
+    .containericonocivil1,containericonocivil2,containericonocivil3 {
+        padding: 20px;
+        border: 1px solid #ccc; /* Borde para los contenedores */
+        margin-bottom: 20px; /* Espacio inferior para los contenedores */
+    }
+
+    .separador {
+        border: none; /* Elimina el borde predeterminado */
+        height: 2px; /* Altura de la línea */
+        background-color: #333; /* Color de la línea */
+        margin: 20px 0; /* Espacio superior e inferior de la línea */
+    }
+
   .background-image-estudiante{
     width: 30%;
+      }
+
+
+
+
+
+
+
+
+  .footer{
+    background-color: #103056;
+    height: 100%;
   }
+
+  .img-logo-white{
+    padding-bottom: 4%;
+  }
+
+  .letrawhitefooter{
+    color: white;
+  }
+
+  /* para colocar el texto se utiliza la clase text-uppercase */
