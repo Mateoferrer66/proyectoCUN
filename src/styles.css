@@ -6,6 +6,8 @@ body { margin: 0;    font-family: Montserrat, "Helvetica Neue", sans-serif; }
 
 h1{
     margin-left: 5%;
+    font-family: 'Montserrat';
+
 }
 
 .text-home{
@@ -82,17 +84,23 @@ h1{
 .centered-text-one{
     margin-right: 25%;
     margin-bottom: 2%;
+        font-family: 'Montserrat';
+
 }
 
 
 .centered-text-two{
 margin-right: 37%;
 margin-bottom: 2%;
+font-family: 'Montserrat';
+
 }
 
 .centered-text-two-paragraph{
     margin-right: 46%;
     margin-bottom: 2%;
+    font-family: 'Montserrat';
+
 }
 
 .centered-text-descripitive{
@@ -200,7 +208,7 @@ letter-spacing: 0%;
     color: #103056;
     height: 20%;
     padding-top: 2%;
-    padding-right: 4%;
+    padding-right: 2%;
     padding-bottom: 2%;
     padding-left: 4%;
     margin-top: 4%;
@@ -294,6 +302,40 @@ letter-spacing: 0%;
     justify-content: space-between;
     padding-left: 2%;
     padding-bottom: 4%;
+    font-family: 'Montserrat';
+
+}
+
+.main-container-green-paginacion {
+    display: flex;
+    background-color: #47E6C4;
+    border: 2px solid #103056;
+    padding: 1%;
+    border-radius: 2%;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -1%;
+    max-width: 88%;
+    margin-top: 3%;
+    align-content: center;
+    margin-bottom: 3%;
+    font-family: "Montserrat";
+}
+
+.main-container-green-paginacion-blanco {
+    display: flex;
+    background-color: #E5E5E5;
+    border: 2px solid #103056;
+    padding: 1%;
+    border-radius: 2%;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -1%;
+    max-width: 88%;
+    margin-top: 3%;
+    align-content: center;
+    margin-bottom: 3%;
+    font-family: "Montserrat";
 }
 
 
@@ -308,6 +350,9 @@ letter-spacing: 0%;
     flex-direction: row;
     padding-left: 2%;
     padding-bottom: 4%;
+    margin-top: 5%;
+    font-family: 'Montserrat';
+
     
 }
 
@@ -321,6 +366,8 @@ letter-spacing: 0%;
     background-color: #47E6C4;
     border-radius: 4px;
     border: 2px solid #103056;
+    font-family: 'Montserrat';
+
   }
 
   .text-container-two {
@@ -333,6 +380,8 @@ letter-spacing: 0%;
     padding: 2% 15%;
     width: 40%;
     padding-left: 2%;
+    font-family: 'Montserrat';
+
   }
 
   .parrafobrcontainergreen{
@@ -340,18 +389,23 @@ letter-spacing: 0%;
     text-align: center;
     margin-bottom: 3%; /* Espacio entre el título y los contenedores */
     width: 100%;
+    font-family: 'Montserrat';
   }
 
   .parrafobrcontainerwhite{
       margin-top: 2%; 
       margin-bottom: 3%; /* Espacio entre el título y los contenedores */
       width: 95%;
+      font-family: 'Montserrat';
+
     }
     
     .parrafobrcontainerwhitetwo{
         margin-top: 2%; 
         margin-bottom: 3%; /* Espacio entre el título y los contenedores */
         width: 100%;
+        font-family: 'Montserrat';
+
     }
     
   .img-fluid-icongreen{
@@ -385,6 +439,20 @@ letter-spacing: 0%;
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
+.main-container-white-civil {
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 1%;
+    border-radius: 2%;
+    width: 100%;
+    margin-left: 6%;
+    max-width: 88%;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-bottom: 4%;
+    font-family: "Montserrat";
+}
+
   .nav-text {
     position: absolute; /* Posiciona el texto sobre la imagen */
     top: 50%; /* Centra verticalmente */
@@ -403,23 +471,28 @@ letter-spacing: 0%;
   
   .parrafosectioncivil{
     margin-left: 5%;
+    font-family: 'Montserrat';
+
     }
 
     .containericonocivil1,containericonocivil2,containericonocivil3 {
-        padding: 20px;
         border: 1px solid #ccc; /* Borde para los contenedores */
         margin-bottom: 20px; /* Espacio inferior para los contenedores */
+        font-family: 'Montserrat';
+        display: flex;
     }
 
     .containericonocivil1 {
-        display: flex; /* Activa flexbox */
         justify-content: space-between; /* Espacia los elementos uniformemente */
         align-items: center; /* Alinea verticalmente los elementos al centro */
+        margin-top: 17%;
     }
     
     .parrafobrcontainerwhite,
     .parrafobrcontainerwhitetwo {
         margin: 0 10px; /* Espacio entre los elementos, ajusta según sea necesario */
+        font-family: 'Montserrat';
+
     }
 
     .separador {
@@ -431,6 +504,7 @@ letter-spacing: 0%;
 
   .background-image-estudiante{
     width: 100%;
+    margin-top: -65%;
       }
 
   .form-group{
@@ -445,6 +519,8 @@ letter-spacing: 0%;
   .footer{
     background-color: #103056;
     height: 100%;
+    font-family: 'Montserrat';
+
   }
 
   .img-logo-white{
@@ -480,9 +556,33 @@ letter-spacing: 0%;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
-    padding-left: 6%;
-    padding-top: 3%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 18%;
   }
+
+  .letrablackformulario {
+    color: #000500;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+  .letrablackpaginacion{
+        color: #000500;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        padding-top: 3%;
+        margin-left: 6%;
+      }
 
   .letrablue{
     color: #103056;
@@ -490,6 +590,6 @@ letter-spacing: 0%;
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    padding-left: 10%;
+    margin-left: 0%;
   }
   /* para colocar el texto se utiliza la clase text-uppercase */
