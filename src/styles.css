@@ -63,7 +63,7 @@ h1{
     top: 20%;
     left: 30%;
     transform: translate(-50%, -50%);
-    color: white; /* Cambia el color del texto según sea necesario */
+    color: #E5E5E5; /* Cambia el color del texto según sea necesario */
     text-align: center; /* Centra el texto */
     z-index: 1; /* Coloca el texto sobre la imagen */
 }
@@ -75,7 +75,7 @@ h1{
     line-height: 150%;
     letter-spacing: 0%;
     font-variant: small-caps;
-    color: whitesmoke;
+    color: #E5E5E5;
     text-transform: uppercase;
 }
 
@@ -254,7 +254,7 @@ letter-spacing: 0%;
     line-height: 100%;
     letter-spacing: 0%;
     font-variant: small-caps;
-    color: whitesmoke;
+    color: #E5E5E5;
     text-transform: lowercase;
     margin-top: 4%;
   }
@@ -280,7 +280,7 @@ letter-spacing: 0%;
 
 .main-container-white {
     display: flex;
-    background-color: whitesmoke;
+    background-color: #E5E5E5;
     padding: 1%;
     border-radius: 2%;
     width: 100%;
@@ -290,6 +290,7 @@ letter-spacing: 0%;
     flex-direction: row;
     padding-left: 2%;
     padding-bottom: 4%;
+    
 }
 
 .text-container-one {
@@ -371,7 +372,7 @@ letter-spacing: 0%;
     top: 50%; /* Centra verticalmente */
     left: 50%; /* Centra horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
-    color: white; /* Color del texto */
+    color: #E5E5E5; /* Color del texto */
     font-size: 24px; /* Tamaño del texto */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad */
 }
@@ -400,7 +401,7 @@ letter-spacing: 0%;
     }
 
   .background-image-estudiante{
-    width: 30%;
+    width: 100%;
       }
 
   .form-group{

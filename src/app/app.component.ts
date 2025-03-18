@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'proyectoCUN';
   imagen: string = 'assets/Logo.png'; 
-  imagen2: string = 'assets/Frame 200.png';  // Ruta de la imagen corregida
+  imagen2: string = 'assets/botonesencabezado.png';  // Ruta de la imagen corregida
   imagen3: string = 'assets/buscarymenu.png';  // Ruta de la imagen corregida
   imagen4: string = 'assets/iconohome.png';  // Ruta de la imagen corregida
   imagen5: string = 'assets/iconocivil1.png';
@@ -25,4 +25,5 @@ export class AppComponent {
   imagen14: string = 'assets/iconowhatsapp.png';  // Ruta de la imagen corregida
   imagen15: string = 'assets/iconotel.png';  // Ruta de la imagen corregida
   imagen16: string = 'assets/iconocorreo.png';  // Ruta de la imagen corregida
+  imagen17: string = 'assets/fondochica.png';  // Ruta de la imagen corregida
 }
