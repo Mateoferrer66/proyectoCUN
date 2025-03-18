@@ -490,7 +490,6 @@ letter-spacing: 0%;
     
     .parrafobrcontainerwhite,
     .parrafobrcontainerwhitetwo {
-        margin: 0 10px; /* Espacio entre los elementos, ajusta según sea necesario */
         font-family: 'Montserrat';
 
     }
